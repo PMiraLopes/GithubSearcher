@@ -17,7 +17,7 @@ class App extends Component {
     if (xmlHttp.status === 200 && xmlHttp.readyState === 4) {
       return JSON.parse(xmlHttp.responseText);
     } else {
-      console.log("entrei no caso de nao ter");
+      console.log("The user does not exist");
       return null;
     }
   }
@@ -31,6 +31,7 @@ class App extends Component {
     if (xmlHttp.status === 200 && xmlHttp.readyState === 4) {
      return JSON.parse(xmlHttp.responseText);
     } else {
+      console.log("There are no repositories");
       return null;
     }
   }
