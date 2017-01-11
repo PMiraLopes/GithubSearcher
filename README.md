@@ -1,8 +1,15 @@
-# React webpack boilerplate
-A ready to go initial setup for your react webpack projects. You should have node installed (I recommend you to use [nvm](https://github.com/creationix/nvm)).
+# React GigthubSearcher
 
-- First, check the `package.json` and install the dependencies. The dev dependencies should be installed with `npm install <dependencieName> --save-dev` and the dependencies with `npm install <dependencieName> --save`.
+Hello I'm Pedro, this is my implementation of a github user and repositores searcher page implemented using React JS.
 
-- After installing the dependencies run `webpack-dev-server`. It should build smoothly.
+Regarding the implementation, to run it you just need to do the following steps
 
-- Ready to go! You can now add your components :)
+1. npm install to install some dependencies of the project 
+2. npm start to run create a local server to the page
+3. Go to http://localhost:8080 and test the page ;)
+
+If you have any doubts please feel free to let me know or make a code review with me.
+
+Best regards,
+
+Pedro Mira Lopes
