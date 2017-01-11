@@ -1,0 +1,26 @@
+.search-area{
+  padding: 28px 0 0 25px;
+
+  input {
+    width: 275px;
+    height: 36px;
+    font-size: 14px;
+    border: 1px solid #B7B1B0;
+    border-radius: 4px;
+    padding-left: 10px;
+  }
+
+  button {
+    padding: 10px;
+    height: 40px;
+    border: 1px solid #B7B1B0;
+    border-radius: 4px;
+    font-size: 14px;
+    background: #F5F5F5; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(white, #F5F5F5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #F5F5F5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #F5F5F5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to white, #F5F5F5); /* Standard syntax (must be last) */
+  }
+}
+
